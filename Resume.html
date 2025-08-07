@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JeevaprasanthResume</title>
+    <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    padding: 40px;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+
+  h2 {
+    color: #34495e;
+    margin-top: 30px;
+    font-size: 24px;
+    border-left: 4px solid #00cec3;
+    padding-left: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  th, td {
+    border: 2px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #00cec3;
+    color: white;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  center {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  body > p {
+    margin-left: 20px;
+  }
+
+  body {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    padding: 40px;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #34495e;
+    font-size: 24px;
+    margin-top: 30px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 25px;
+    margin-top: 10px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  b {
+    display: block;
+    margin-bottom: 6px;
+    color: #2c3e50;
+    font-size: 17px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  .contact-info p {
+    margin: 4px 0;
+    font-size: 16px;
+  }
+
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  @media print {
+    body {
+      background: none;
+      padding: 0;
+    }
+
+    .resume-container {
+      box-shadow: none;
+      border-radius: 0;
+    }
+  }
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    padding: 40px;
+    color: #333;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #34495e;
+    font-size: 24px;
+    margin-top: 30px;
+    border-left: 4px solid #3498db;
+    padding-left: 10px;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 8px 0;
+    line-height: 1.6;
+  }
+
+  ul {
+    padding-left: 25px;
+    margin-top: 10px;
+  }
+
+  ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  b {
+    display: inline-block;
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 16px;
+  }
+
+  th, td {
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #3498db;
+    color: white;
+  }
+
+  td {
+    background-color: #ffffff;
+  }
+
+  .contact-info p {
+    margin: 4px 0;
+    font-size: 16px;
+  }
+
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Declaration section */
+  .declaration {
+    margin-top: 30px;
+  }
+
+  .declaration p {
+    font-size: 16px;
+    margin: 6px 0;
+  }
+
+  .signature {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  /* Internship box styling */
+  ul li p {
+    margin-left: 10px;
+    margin-bottom: 8px;
+  }
+
+  @media print {
+    body {
+      background: none;
+      padding: 0;
+    }
+
+    .resume-container {
+      box-shadow: none;
+      border-radius: 0;
+    }
+  }
+</style>
+</head>
+<body>
+
+    <h1><center>JEEVAPRASANTH S</center></h1>
+    <p>✉️  Email: jeevaprasanth32@gmail.com</p>
+    <p>📞  Phone: 8903245730</p>
+    <p>🏠  Address: V.Nagar.18, Rasipuram, Namakkal</p>
+    
+    <hr>
+    <h2>Objective</h2>
+    <p>I am currently pursuing a degree in Artificial Intelligence and
+       Data Science at Muthayammal Engineering College, Creative
+       and detail-oriented UI/UX Designer and MERN Stack
+       Developer with hands-on experience in designing intuitive user
+       interfaces and currently learning MERN Stack development</p>
+       <h2>Educational Qualification</h2>
+       <table>
+        <tr>
+            <th>Degree</th>
+            <th>Institution</th>
+            <th>Year</th>
+            <th>CGPA</th>
+        </tr>
+        <tr>
+            <td>B.Tech in Artificial Intelligence and Data Science</td>
+            <td>Muthayammal Engineering College, Rasipuram</td>
+            <td>2022 - 2026</td>
+            <td>7.05 CGPA</td>
+        </tr>
+        <tr>
+            <td>HSC</td>
+            <td>Govt Higher Secondary School, Rasipuram</td>
+            <td>2021 - 2022</td>
+            <td>56.5%</td>
+        </tr>
+        <tr>
+            <td>SSLC</td>
+            <td>Govt Higher Secondary School, Rasipuram</td>
+            <td>2019 - 2020</td>
+            <td>60%</td>
+        </tr>
+       </table>
+       <h2>Technical Skills</h2>
+       <ul>
+           <li>Programming Languages: java</li>
+           <li>Web Technologies: HTML, CSS, JavaScript, MERN Stack, React js, Node js, Express js</li>
+           <li>Database Management: MongoDB, MySQL</li>
+           <li>Tools & Platforms: Git, GitHub, Visual Studio Code, Figma, UI/UX Design</li>
+       </ul>
+       <h2>Projects</h2>
+       <ul>
+           <li>
+               <b>Project 1: College Predictor Chatbot</b>
+               <p>A College Predictor Chatbot is an AI-powered tool designed
+                  to help students estimate which colleges they are likely to get
+                  admission into based on their academic performance, entrance
+                  exam scores, category, preferred courses, and other criteria.</p>
+           </li>
+           <li>
+               <b>Project 2: Smart Presentation Generator</b>
+               <p>A Smart Presentation Generator is an AI-based tool that
+                  automatically creates professional-quality presentation slides
+                  from user input such as text, topics, or documents. The
+                  content is structured logically, and visually appealing
+                  slide layouts, designs, and graphics are applied.</p>
+           </li>
+              <li>
+                <b>Project 3: UI UX Company App Design</b>
+                <p>The UI/UX design of the Astergen Company App refers to the
+                   process of creating an intuitive, visually appealing, and user friendly interface that enhances user interaction and experience
+                   within the app. It focuses on aligning the design with
+                   Astergen’s brand identity, ensuring seamless navigation,
+                   responsive layouts, and accessible features. The design process
+                   includes user research, wireframing and prototyping.</p>
+           </li>
+       </ul>
+         <h2>Achievements</h2>
+         <ul>
+             <li>Secured 1st place in the inter-college paper presentation competition.</li>
+             <li>Achieved First Class with Distinction in Typewriting (2023) – mastering both speed and precision.</li>
+             <li>Successfully completed the NPTEL course 'Foundation of Cloud IoT Edge Machine Learning' with 64% Elite recognition.</li>
+         </ul>
+         <h2>Internships</h2>
+         <ul>
+             <li>
+                 <b>Internship 1: MERN Stack Developer Intern</b>
+                 <p>Worked as a MERN Stack Developer Intern at Zealous Tech Corp, where I contributed to developing web applications using the MERN stack.</p>
+                 <p><strong>Course duration:</strong> 4 months</p>
+             </li>
+         </ul>
+         <h2>Personal Details</h2>
+         <ul>
+             <li><b>Date of Birth:</b> 07 March 2005</li>
+             <li><b>Nationality:</b> Indian</li>
+             <li><b>Languages Known:</b> English, Tamil</li>
+             <li><b>Hobbies:</b> watching crime movies and listening songs</li>
+         </ul>
+         <h2>Declaration</h2>
+         <p>I hereby declare that the information provided above is true to the best of my knowledge and belief.</p>
+         <p>
+            <b>JEEVAPRASANTH</b>
+            Place: Bangalore<br>
+            Date: 05/08/2025
+         </p>
+</body>
+</html>
